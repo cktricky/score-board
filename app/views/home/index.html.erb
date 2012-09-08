@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+	<% if flash[:notice] %>
+ 		<p><span class="label label-warning">Notice:</span><%= flash[:notice] %></p>
+    <% end %>
+    <% if flash[:error] %>
+		<p><span class="label label-important">Error:</span><%= flash[:error] %></p>
+    <% end %>
+
+	<div class="hero-unit"  align="center">
+		<h1>Scoreboard!</h1>
+		<p> Scoreboard CTF Point Tracker</p>
+	</div>
+
+</body>
+</html>

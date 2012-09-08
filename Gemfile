@@ -5,7 +5,7 @@ gem 'rails', '3.2.5'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+gem 'sqlite3'
 gem 'json'
 
 gem 'bootstrap-sass', '2.0.0'
@@ -26,6 +26,7 @@ end
 
 gem 'jquery-rails'
 gem 'therubyracer', '0.11.0beta5'
+gem 'libv8', '~> 3.11.8'
 
 group :development do
   gem 'brakeman'
@@ -38,7 +39,7 @@ end
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
